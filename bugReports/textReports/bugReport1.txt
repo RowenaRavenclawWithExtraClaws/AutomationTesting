@@ -1,0 +1,6 @@
+ID: 1
+Name: Wrong password validation
+Submit Date: 2020-04-22 00:43:49.111843
+Summary: a prompt shows The Password field must meet its conditions
+Expected Result: page tile should contain account
+Actual Result: page tile contains register
