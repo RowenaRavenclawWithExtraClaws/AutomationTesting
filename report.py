@@ -34,7 +34,7 @@ class Report:  # A class for constructing bug reports with basic information and
         imgPath = 'bugReports/screenshots/test' + str(info['ID']) + '.png'
         pdf = FPDF()
         pdf.add_page()
-        pdf.set_font("Arial", size=12)
+        pdf.set_font("Arial", size=8)
 
         colWidth = pdf.w / 2.5
         rowHeight = pdf.font_size * 2

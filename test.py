@@ -16,6 +16,8 @@ class Test(unittest.TestCase):
         self.url = "https://www.phptravels.net/register"
 
     def testRegister1(self):
+        print('first test is running...')
+
         self.testCase = TestCaseGenerator.generateTestCase(
             registeredEmail=self.registeredEmail)
         self.registeredEmail.append(self.testCase['email'])
@@ -70,6 +72,8 @@ class Test(unittest.TestCase):
         self.automateRegister.driver.close()
 
     def testRegister2(self):
+        print('first test is running...')
+
         self.testCase = TestCaseGenerator.generateTestCase(
             isValidFirstName=False, registeredEmail=self.registeredEmail)
         self.registeredEmail.append(self.testCase['email'])
@@ -120,6 +124,8 @@ class Test(unittest.TestCase):
         self.automateRegister.driver.close()
 
     def testRegister3(self):
+        print('first test is running...')
+
         self.testCase = TestCaseGenerator.generateTestCase(
             isValidLastName=False, registeredEmail=self.registeredEmail)
         self.registeredEmail.append(self.testCase['email'])
@@ -170,6 +176,8 @@ class Test(unittest.TestCase):
         self.automateRegister.driver.close()
 
     def testRegister4(self):
+        print('first test is running...')
+
         self.testCase = TestCaseGenerator.generateTestCase(
             isValidEmail=False, registeredEmail=self.registeredEmail)
         self.registeredEmail.append(self.testCase['email'])
@@ -220,6 +228,8 @@ class Test(unittest.TestCase):
         self.automateRegister.driver.close()
 
     def testRegister5(self):
+        print('first test is running...')
+
         self.testCase = TestCaseGenerator.generateTestCase(
             isValidPassword=False, registeredEmail=self.registeredEmail)
         self.registeredEmail.append(self.testCase['email'])
@@ -270,6 +280,8 @@ class Test(unittest.TestCase):
         self.automateRegister.driver.close()
 
     def testRegister6(self):
+        print('first test is running...')
+
         self.testCase = TestCaseGenerator.generateTestCase(
             isValidConfirmedPassword=False, registeredEmail=self.registeredEmail)
         self.registeredEmail.append(self.testCase['email'])
@@ -320,6 +332,8 @@ class Test(unittest.TestCase):
         self.automateRegister.driver.close()
 
     def testRegister7(self):
+        print('first test is running...')
+
         self.testCase = TestCaseGenerator.generateTestCase(isValidFirstName=False, isValidLastName=False, isValidPhone=False,
                                                            isValidEmail=False, isValidPassword=False, isValidConfirmedPassword=False, registeredEmail=self.registeredEmail)
         self.registeredEmail.append(self.testCase['email'])
@@ -370,6 +384,8 @@ class Test(unittest.TestCase):
         self.automateRegister.driver.close()
 
     def testRegister8(self):
+        print('first test is running...')
+
         self.testCase = TestCaseGenerator.generateTestCase(
             isValidFirstName=False, isValidEmail=False, registeredEmail=self.registeredEmail)
         self.registeredEmail.append(self.testCase['email'])
@@ -418,6 +434,8 @@ class Test(unittest.TestCase):
         self.automateRegister.driver.close()
 
     def testRegister9(self):
+        print('first test is running...')
+
         self.testCase = TestCaseGenerator.generateTestCase(
             isValidLastName=False, isValidEmail=False, isValidPassword=False, registeredEmail=self.registeredEmail)
         self.registeredEmail.append(self.testCase['email'])
