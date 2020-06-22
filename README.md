@@ -2,8 +2,7 @@
 This project automates and tests the registration page for the phptravels website. 
 It is a little bit primitive, but still elegant.
 # Motivation
-As a part of Pixelogic interview process, this project is a solution to their assignment.
-Assignment details are included in the project files.
+As a part of learning software testing techniques, this project is an a attempt to create an automation testing framework.
 # Technologies and third-party packages
 * [Python 3.7](https://www.python.org/downloads/release/python-370/) for object oriented design.
 * [Selenium 3.141](https://pypi.org/project/selenium/) for driving Firefox natively.
